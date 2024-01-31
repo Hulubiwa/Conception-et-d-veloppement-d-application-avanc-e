@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CreerContact</class>
+ <widget class="QWidget" name="CreerContact">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>698</width>
+    <height>452</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ajouter un Contact</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="QLNom">
+       <property name="text">
+        <string>NOM</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="nOMLineEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="QLPrenom">
+       <property name="text">
+        <string>Prénom</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="prNomLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="QLEntreprise">
+       <property name="text">
+        <string>Entreprise</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="entrepriseLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="QLMail">
+       <property name="text">
+        <string>Mail</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="mailLineEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="QLTel">
+       <property name="text">
+        <string>Téléphone</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="tLPhoneLineEdit"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="cheminVersLaPhotoLineEdit"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="QLPhoto">
+       <property name="text">
+        <string>Chemin vers la photo</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="PBValider">
+       <property name="text">
+        <string>Valider</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="PBAnnuler">
+       <property name="text">
+        <string>Annuler</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
